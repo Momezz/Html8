@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+html{
+    margin: 0px;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+}
+
+#capa{
+    position: absolute;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    width: 350px;
+    height: 320px;
+    padding-top: 22px;
+}
+
+#mainCard{
+    position:relative;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    padding: 30px;
+    margin-right: -202px;
+    margin-left: -202px;
+    width: 290px;
+    height: 320px;
+    opacity: 1;
+}
+
+p{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 20px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+table td tr{
+    text-align: center;
+}
+
+.star{
+    background-color:  #24343c;
+    border-radius: 50%;
+    width: 27px;
+    padding: 6px;
+    -webkit-box-shadow: 6px 3px 48px -3px  #192429;
+    -moz-box-shadow: 6px 3px 48px -3px  #0c1417;
+    box-shadow: 6px 3px 48px -3px  #0b1113;
+}
+
+.circle{
+    background-color:  #24343c;
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    width: 37px;
+    height: 40px;
+    margin: auto;
+    border: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-shadow: 6px 3px 48px -3px  #192429;
+    -moz-box-shadow: 6px 3px 48px -3px  #0c1417;
+    box-shadow: 6px 3px 48px -3px  #0b1113;
+}
+.circle:hover{
+    background-color: hsl(25, 97%, 53%); 
+    color: white;
+}
+
+.circle:focus{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.btn-submit{
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    height: 40px;
+    color: white;
+    margin-top: 25px;
+    border-radius: 25px;
+    border: none;
+    letter-spacing: 5px;
+}
+
+.btn-submit:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+@media (min-width: 1440px) {
+    body {
+        min-height: 100vh;
+        font-weight: 700;
+    }
+
+}
+
+
+

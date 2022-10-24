@@ -1,0 +1,27 @@
+.image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.select{
+    background-color:  #24343c;
+    border-radius: 25px;
+    color: hsl(25, 97%, 53%);
+    height: 35px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}

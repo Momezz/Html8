@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/component.css">
+    <link rel="stylesheet" href="./styles/page.css">
+    <link rel="stylesheet" href="./styles/app.css">
+    <title>HTML 8</title>
+</head>
+
+<body id="cuerpo">
+    <div id="capa">
+        <div class="image">
+            <img class="img-thanks" src="./assets/illustration-thank-you.svg" alt="">
+        </div>
+        <div class="select" id="select">You selected out of 5</div>
+        <h1>Than You!</h1>
+        <p>We appreciate you taking the time to give a rating. if you ever need more support, don't hesitate to get
+            in touch!</p>
+    </div>
+
+    <main id="mainCard">
+        <img class="star" src="./assets/icon-star.svg" alt="">
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+            offering</p>
+        <table class="buttons" id="options">
+            <tr>
+                <td><button onclick="showDate1()" class="circle" id="btn-uno"><span class="btn-center"></span>&nbsp;
+                        1</button></td>
+                <td><button onclick="showDate2()" class="circle" id="btn-dos"><span class="btn-center"></span>&nbsp;
+                        2</button></td>
+                <td><button onclick="showDate3()" class="circle" id="btn-tres"><span class="btn-center"></span>&nbsp;
+                        3</button></td>
+                <td><button onclick="showDate4()" class="circle" id="btn-cuatro"><span class="btn-center"></span>&nbsp;
+                        4</button></td>
+                <td><button onclick="showDate5()" class="circle" id="btn-cinco"><span class="btn-center"></span>&nbsp;
+                        5</button></td>
+            </tr>
+        </table>
+        <button onclick="showMessage()" class="btn-submit">SUBMIT</button>
+
+    </main>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
